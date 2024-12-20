@@ -37,6 +37,8 @@ downloadImage() {
       board="Mac-2BD1B31983FE1663" ;;
     "catalina" | "10"* )
       board="Mac-00BE6ED71E35EB86" ;;
+    "elcapitan" | "10.11"* )
+      board="Mac-F2218FA9" ;;
     *)
       error "Unknown VERSION specified, value \"${version}\" is not recognized!"
       return 1 ;;
